@@ -37,3 +37,7 @@ Pick the design skill by task, without waiting to be asked:
 - Improving existing UI (optimize, redesign, polish, critique, audit, "make it look better"): use `impeccable`.
 - `taste-skill` and `frontend-design` only when the user names them.
 - After any `impeccable` optimization that changed code, run the `ponytail-review` skill on those changes without waiting to be asked. Report its findings as a numbered list and ask which to fix. Do not change any code until the user picks.
+
+## Keeping this file short
+
+When you add to AGENTS.md or CLAUDE.md and it goes over 100 lines, tell the user and offer a trimmed version under 100 lines. Do not trim it until they agree.
