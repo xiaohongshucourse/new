@@ -31,4 +31,8 @@ Never cut: validation at trust boundaries, error handling that prevents data los
 
 ## UI design
 
-For any UI design or build work (websites, landing pages, dashboards, admin panels, app screens, components), use the `ui-ux-pro-max` skill first, without waiting to be asked: run its design-system search to pick style, palette, fonts and layout before writing UI code. Other design skills (`impeccable`, `taste-skill`, `frontend-design`) only when the user names them or for a polish/audit pass after.
+Pick the design skill by task, without waiting to be asked:
+
+- Building new UI (websites, landing pages, dashboards, admin panels, app screens, components): use `ui-ux-pro-max` first; run its design-system search to pick style, palette, fonts and layout before writing UI code.
+- Improving existing UI (optimize, redesign, polish, critique, audit, "make it look better"): use `impeccable`.
+- `taste-skill` and `frontend-design` only when the user names them.
