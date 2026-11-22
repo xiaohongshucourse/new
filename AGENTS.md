@@ -41,3 +41,7 @@ Pick the design skill by task, without waiting to be asked:
 ## Keeping this file short
 
 When you add to AGENTS.md or CLAUDE.md and it goes over 100 lines, tell the user and offer a trimmed version under 100 lines. Do not trim it until they agree.
+
+## Updating the computer-wide install
+
+When the user asks to update or reinstall their skills and rules on this computer (in any wording), do it for them: in the clone of `xiaohongshucourse/new`, run `git pull`, then `bash install-global.sh`, and tell them what changed.
