@@ -8,5 +8,5 @@
 4. skill 存放位置：仓库里的 `.claude/skills/`。脚本会把它们装到 `~/.claude/skills`（Claude 用）和 `~/.agents/skills`（Codex 用），并把规则写入 `~/.claude/CLAUDE.md` 和 `~/.codex/AGENTS.md`。
 5. 装好后告诉我：装了哪些 skill、规则有没有写进去。然后读一遍 `AGENTS.md`，确认你知道里面的规则，之后照着做。
 
-里面有 10 个 skill：ui-ux-pro-max、frontend-design、impeccable、taste-skill、ponytail（共 6 个）。
+里面共 10 个 skill：ui-ux-pro-max、frontend-design、impeccable、taste-skill，加上 ponytail 系列 6 个（ponytail、ponytail-review、ponytail-audit、ponytail-debt、ponytail-gain、ponytail-help）。
 以后我说"更新 skill 和规则"，你就在这个文件夹里 `git pull`，再运行一次 `bash install-global.sh`。
