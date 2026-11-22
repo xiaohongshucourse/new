@@ -36,4 +36,4 @@ Pick the design skill by task, without waiting to be asked:
 - Building new UI (websites, landing pages, dashboards, admin panels, app screens, components): use `ui-ux-pro-max` first; run its design-system search to pick style, palette, fonts and layout before writing UI code.
 - Improving existing UI (optimize, redesign, polish, critique, audit, "make it look better"): use `impeccable`.
 - `taste-skill` and `frontend-design` only when the user names them.
-- After any `impeccable` optimization that changed code, finish by running the `ponytail-review` skill on those changes and fix what it finds, without waiting to be asked.
+- After any `impeccable` optimization that changed code, run the `ponytail-review` skill on those changes without waiting to be asked. Report its findings as a numbered list and ask which to fix. Do not change any code until the user picks.
