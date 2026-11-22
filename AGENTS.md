@@ -28,3 +28,7 @@ Take the first option that fully works:
 - A shortcut with a known limit gets a code comment in this form: `shortcut: <the limit>, <when to upgrade>`.
 
 Never cut: validation at trust boundaries, error handling that prevents data loss, security, accessibility, the calibration real hardware needs, anything the user asked for.
+
+## UI design
+
+For any UI design or build work (websites, landing pages, dashboards, admin panels, app screens, components), use the `ui-ux-pro-max` skill first, without waiting to be asked: run its design-system search to pick style, palette, fonts and layout before writing UI code. Other design skills (`impeccable`, `taste-skill`, `frontend-design`) only when the user names them or for a polish/audit pass after.
